@@ -1,0 +1,18 @@
+# wp-content/.gitignore — ignoruj wszystko…
+/*
+# …poza motywem i pluginami zespołu
+!.gitignore
+!/themes/
+/themes/*
+!/themes/cybertarcza-theme/
+!/plugins/
+/plugins/*
+!/plugins/cybertarcza-sheets/
+!/plugins/cybertarcza-ai/
+# nigdy nie commitujemy
+*.log
+node_modules/
+vendor/
+*.json.key
+credentials*.json
+.env
