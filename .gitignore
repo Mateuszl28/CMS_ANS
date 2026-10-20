@@ -9,6 +9,8 @@
 /plugins/*
 !/plugins/cybertarcza-sheets/
 !/plugins/cybertarcza-ai/
+# …oraz sprawozdania
+!/docs/
 # nigdy nie commitujemy
 *.log
 node_modules/
